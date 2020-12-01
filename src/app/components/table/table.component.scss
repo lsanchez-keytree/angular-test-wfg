@@ -1,0 +1,14 @@
+.table {
+  tr > th {
+    color: var(--blue);
+  }
+  td.align-right {
+    text-align: right;
+    .negative {
+      color: #e45f5f;
+    }
+    .positive {
+      color: #318c41;
+    }
+  }
+}
